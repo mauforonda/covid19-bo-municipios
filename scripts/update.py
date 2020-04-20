@@ -11,8 +11,8 @@ def update():
   filename = 'data/{}.csv'.format(yesterday)
   response = requests.get(url).content
   df = pd.read_csv(StringIO(response.decode('utf-8')))
-  df[['positivos', 'recuperados', 'decesos']] = df[['positivos', 'recuperados', 'decesos']].fillna(0).apply(lambda x: pd.to_numeric(x, downcast='integer'))
-  df[['municipio', 'positivos', 'recuperados','decesos']].to_csv(filename, index=False)
+  df[['cod_ut', 'positivos', 'recuperados', 'decesos']] = df[['cod_ut', 'positivos', 'recuperados', 'decesos']].fillna(0).apply(lambda x: pd.to_numeric(x, downcast='integer'))
+  df[['municipio', 'cod_ut', 'positivos', 'recuperados','decesos']].to_csv(filename, index=False, header=['municipio', 'cod_ine', 'confirmados', 'recuperados', 'decesos'])
   print(yesterday)
 
 update()
