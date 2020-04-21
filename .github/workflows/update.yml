@@ -1,10 +1,10 @@
-name: Update data
+name: Update Repo
 on:
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 16 * * *'
 jobs:
   update:
-    name: update data
+    name: update
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -19,10 +19,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
-      - name: run script
+      - name: update data
         run: |
           echo ::set-output name=date::$(python scripts/update.py)
         id: run_script
+      - name: update readme
+        run: |
+          bash scripts/readme.sh
       - name: commit
         env:
           DATE: ${{ steps.run_script.outputs.date }}
@@ -34,6 +37,3 @@ jobs:
           git status
           git commit -m "[ci] DATE"
           git push -q "https://$GH_TOKEN@github.com/mauforonda/covid19-bo-municipios.git" master
-          
-        
-        
