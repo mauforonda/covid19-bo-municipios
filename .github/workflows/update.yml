@@ -27,7 +27,6 @@ jobs:
         env:
           DATE: ${{ steps.run_script.outputs.date }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: steps.changed.outputs.number > 0 
         run: |
           git config --global user.email "covid19-bot@example.com"
           git config --global user.name "covid19-bot"
