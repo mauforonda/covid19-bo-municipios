@@ -35,5 +35,5 @@ jobs:
           git config --global user.name "covid19-bot"
           git add -A
           git status
-          git commit -m "[ci] DATE"
+          git commit -m "[ci] $DATE"
           git push -q "https://$GH_TOKEN@github.com/mauforonda/covid19-bo-municipios.git" master
