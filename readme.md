@@ -12,7 +12,7 @@
 
 
 
-### Cambios en el último día
+## Cambios en el último día
 
 
 <table>
@@ -33,12 +33,13 @@
 </tbody>
 </table>
 
+
 +++ : nuevo municipio
 
 → : nuevos casos
 
 
-### Municipios ordenados según el porcentaje de casos confirmados en la población
+## Municipios ordenados según el porcentaje de casos confirmados en la población
 
 
 | Municipio               |   Confirmados |   Población |           % |
@@ -93,7 +94,7 @@
 El ranking sólo considera municipios con Código INE.
 
 
-### Cambios en la última semana
+## Cambios en la última semana
 
 
 <table>
@@ -137,6 +138,13 @@ El ranking sólo considera municipios con Código INE.
 <tr class="modify"><td class="modify">→</td><td>Santa Cruz de la Sierra</td><td>70101</td><td class="modify">207→345</td><td class="modify">12→30</td><td class="modify">9→19</td></tr>
 </tbody>
 </table>
+
+
++++ : nuevo municipio
+
+→ : nuevos casos
+
+
 
 
 ---
