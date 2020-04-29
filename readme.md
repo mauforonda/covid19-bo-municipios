@@ -1,6 +1,6 @@
 Datos de casos de covid19 en Bolivia por municipio, reportados diariamente.
 
-Cambios en el último día:
+### Cambios en el último día:
 
 
 <table>
@@ -25,7 +25,7 @@ Cambios en el último día:
 
 → : nuevos casos
 
-Municipios ordenados según el porcentaje de casos confirmados en la población:
+### Municipios ordenados según el porcentaje de casos confirmados en la población:
 
 
 | Municipio               |   Confirmados |   Población |           % |
@@ -77,6 +77,8 @@ Municipios ordenados según el porcentaje de casos confirmados en la población:
 | Sucre                   |             3 |      295476 | 0.00101531  |
 | Sacaba                  |             2 |      208913 | 0.000957336 |
 
-Actualizo los datos a medio día (GMT-4) para el día anterior.
-
 El ranking sólo considera municipios con Código INE.
+
+---
+
+Actualizo los datos a medio día (GMT-4) para el día anterior.
