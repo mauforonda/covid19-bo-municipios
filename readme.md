@@ -1,6 +1,18 @@
-Datos de casos de covid19 en Bolivia por municipio, reportados diariamente.
+> Datos de casos de covid19 en Bolivia por municipio, reportados diariamente.
 
-### Cambios en el último día:
+
+## Contenidos
+
+- [Cambios en el último día](#cambios-en-el-último-día)
+
+- [Municipios ordenados según el porcentaje de casos confirmados en la población](#municipios-ordenados-según-el-porcentaje-de-casos-confirmados-en-la-población)
+
+- [Cambios en la última semana](#cambios-en-la-última-semana)
+
+
+
+
+### Cambios en el último día
 
 
 <table>
@@ -25,7 +37,8 @@ Datos de casos de covid19 en Bolivia por municipio, reportados diariamente.
 
 → : nuevos casos
 
-### Municipios ordenados según el porcentaje de casos confirmados en la población:
+
+### Municipios ordenados según el porcentaje de casos confirmados en la población
 
 
 | Municipio               |   Confirmados |   Población |           % |
@@ -78,6 +91,53 @@ Datos de casos de covid19 en Bolivia por municipio, reportados diariamente.
 | Sacaba                  |             2 |      208913 | 0.000957336 |
 
 El ranking sólo considera municipios con Código INE.
+
+
+### Cambios en la última semana
+
+
+<table>
+<thead>
+<tr class="header"><th>@@</th><th>municipio</th><th>cod_ine</th><th>confirmados</th><th>recuperados</th><th>decesos</th></tr>
+</thead>
+<tbody>
+<tr class="modify"><td class="modify">→</td><td>Eucaliptus</td><td>41101</td><td class="modify">2→9</td><td>0</td><td class="modify">1→2</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Genreal Saavedra</td><td>71002</td><td class="modify">4→5</td><td>0</td><td>0</td></tr>
+<tr class="add"><td>+++</td><td>Mairana</td><td>70903</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Patacamaya</td><td>21305</td><td class="modify">18→23</td><td class="modify">0→2</td><td>1</td></tr>
+<tr class="add"><td>+++</td><td>Pailon</td><td>70502</td><td>3</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Santa Rosa</td><td>70602</td><td class="modify">1→16</td><td>0</td><td>0</td></tr>
+<tr class="add"><td>+++</td><td>Mineros</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="add"><td>+++</td><td>Buena Vista</td><td>70401</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Cobija</td><td>90101</td><td>12</td><td class="modify">0→6</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Punata</td><td>31401</td><td class="modify">8→9</td><td>0</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Vallegrande</td><td>70801</td><td>8</td><td class="modify">1→4</td><td>0</td></tr>
+<tr class="add"><td>+++</td><td>Portachuelo</td><td>70601</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Quillacollo</td><td>30901</td><td class="modify">5→18</td><td>0</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Warnes</td><td>70201</td><td class="modify">9→16</td><td>0</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Cotoca</td><td>70102</td><td class="modify">4→7</td><td>0</td><td>0</td></tr>
+<tr class="add"><td>+++</td><td>Moxos</td><td>80501</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="add"><td>+++</td><td>Colcha K</td><td>0</td><td>3</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Copacabana</td><td>21701</td><td>1</td><td class="modify">0→1</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Oruro</td><td>40101</td><td class="modify">38→60</td><td class="modify">8→10</td><td class="modify">1→2</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Montero</td><td>71001</td><td class="modify">69→135</td><td class="modify">0→6</td><td class="modify">2→4</td></tr>
+<tr class="modify"><td class="modify">→</td><td>La Guardia</td><td>70104</td><td class="modify">12→34</td><td>0</td><td class="modify">1→2</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Potosi</td><td>50101</td><td class="modify">18→22</td><td class="modify">0→2</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Huanuni</td><td>40701</td><td class="modify">6→20</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Santibañez</td><td>30702</td><td>12</td><td class="modify">3→8</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Robore</td><td>70503</td><td>5</td><td class="modify">0→3</td><td>1</td></tr>
+<tr class="add"><td>+++</td><td>El Torno</td><td>0</td><td>4</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Sacaba</td><td>31001</td><td>2</td><td class="modify">0→1</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>La Paz</td><td>20101</td><td class="modify">62→96</td><td class="modify">4→17</td><td class="modify">6→8</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Sucre</td><td>10101</td><td class="modify">1→3</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>El Alto</td><td>20105</td><td class="modify">41→52</td><td class="modify">5→6</td><td class="modify">5→6</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Trinidad</td><td>80101</td><td class="modify">2→62</td><td>0</td><td>1</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Cochabamba</td><td>30101</td><td class="modify">27→30</td><td class="modify">7→10</td><td>2</td></tr>
+<tr class="add"><td>+++</td><td>Viacha</td><td>20801</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="modify"><td class="modify">→</td><td>Santa Cruz de la Sierra</td><td>70101</td><td class="modify">207→345</td><td class="modify">12→30</td><td class="modify">9→19</td></tr>
+</tbody>
+</table>
+
 
 ---
 
