@@ -30,4 +30,4 @@ p = pd.read_csv('scripts/poblacion.csv')
 m[['departamento', 'capital', 'poblacion']] = pd.DataFrame(make_matchlist(m, p))
 m['percent'] = pd.DataFrame(make_percetages(m))
 with open('readme.md', 'a') as f:
-  m[(m['cod_ine'] != 0) & (m['confirmados'] > 0)].sort_values('percent', ascending=False)[['municipio', 'confirmados', 'poblacion', 'percent']].to_markdown(f, headers=['Municipio', 'Confirmados', 'Población', '%'], tablefmt='github', showindex=False)
+  m[(m['cod_ine'] != 0) & (m['confirmados'] > 0)].sort_values('percent', ascending=False).head(20)[['municipio', 'confirmados', 'poblacion', 'percent']].to_markdown(f, headers=['Municipio', 'Confirmados', 'Población', '%'], tablefmt='github', showindex=False)
