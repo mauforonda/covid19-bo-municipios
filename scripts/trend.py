@@ -35,7 +35,7 @@ def make_table(df):
     path = make_plot(m[0], m[1:])
     table.append([m[0],m[1], m[1] - m[-1], '<img src="{}"/>'.format(path)])
   with open('readme.md', 'a') as f:
-    pd.DataFrame(table, columns=['Municipio', 'Confirmados', 'Nuevos', 'Tendencia']).sort_values('Confirmados', ascending=False).to_markdown(f, tablefmt='github', showindex=False)
+    pd.DataFrame(table, columns=['Municipio', 'Confirmados', 'Nuevos', 'Tendencia']).sort_values('Nuevos', ascending=False).to_markdown(f, tablefmt='github', showindex=False)
 
 def make_plot(name, series):
   output = 'scripts/plots/{}.png'.format(name.strip().lower().replace(" ", "-"))

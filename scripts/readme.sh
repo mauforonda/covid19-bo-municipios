@@ -5,8 +5,8 @@ echo -e "> Datos de casos de covid19 en Bolivia por municipio, reportados diaria
 echo -e "\n\n- [Cambios en el último día](#cambios-en-el-último-día)\n\n- [Cambios en la última semana](#cambios-en-la-última-semana)\n\n- [Municipios más afectados](#municipios-más-afectados)\n\n\n\n" >> readme.md
 
 echo -e "## Cambios en el último día\n\n" >> readme.md
-daff --padding sparse --context 0 --unordered --output-format html --fragment "data/${days[1]}" "data/${days[0]}">> readme.md
-echo -e "\n\n+++ : nuevo municipio\n\n→ : nuevos casos\n\n" >> readme.md
+daff --padding sparse --ignore "cod_ine" --context 0 --unordered --output-format html --fragment "data/${days[1]}" "data/${days[0]}" | sed 's/@@//g' | sed 's/→/ → /g' | sed 's/+++/ 🆕 /g'>> readme.md
+echo -e "\n\n🆕 : nuevo municipio\n\n➡ : nuevos casos\n\n" >> readme.md
 
 echo -e "## Cambios en la última semana\n\n" >> readme.md
 python3 scripts/trend.py
