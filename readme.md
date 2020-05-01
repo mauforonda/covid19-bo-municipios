@@ -120,3 +120,8 @@ Los 20 municipios con mayor proporción de su población infectada.
 | Malla                   |             1 |        6195 | 0.0161421 |
 | Cobija                  |            12 |       78555 | 0.0152759 |
 | La Paz                  |           120 |      816044 | 0.0147051 |
+
+---
+
+Los datos son actualizados cada día a medio día (GMT-4) para el día anterior.
+

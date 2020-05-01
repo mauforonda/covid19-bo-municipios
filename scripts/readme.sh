@@ -13,3 +13,5 @@ python3 scripts/trend.py
 
 echo -e "\n\n## Municipios más afectados\n\nLos 20 municipios con mayor proporción de su población infectada.\n\n" >> readme.md
 python3 scripts/rank.py
+
+echo -e "\n\n---\n\nLos datos son actualizados cada día a medio día (GMT-4) para el día anterior.\n\n" >> readme.md
