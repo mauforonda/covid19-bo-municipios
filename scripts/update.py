@@ -9,7 +9,7 @@ import os
 def update():
   
   # Get the latest data
-  url = 'https://juliael.carto.com/api/v2/sql?filename=capital_municipios_covid19&q=SELECT+*+FROM+(select+*+from+public.capital_municipios_covid19)+as+subq+&format=csv&bounds=&api_key=&skipfields=the_geom_webmercator'
+  url = 'https://datosagt2020.carto.com/api/v2/sql?filename=capital_municipios_covid191&q=SELECT+*+FROM+(select+*+from+public.capital_municipios_covid191)+as+subq+&format=csv&bounds=&api_key=&skipfields=the_geom_webmercator'
   yesterday = (datetime.today()-timedelta(days=1)).strftime('%Y-%m-%d')
   filename = 'data/{}.csv'.format(yesterday)
   response = requests.get(url).content

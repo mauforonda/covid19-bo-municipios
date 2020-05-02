@@ -1,6 +1,10 @@
 > Datos de casos de covid19 en Bolivia por municipio, reportados diariamente.
 
 
+**Actualización**
+
+
+Estos datos provenían de [una visualización](https://juliael.carto.com/builder/c70fa175-3e6a-4955-8088-89048c6e6886/embed) creada por AGETIC y mostrada en la página de inicio del [Servicio de Vigilancia Epidemiológica](snis.minsalud.gob.bo/) y [boliviasegura](https://boliviasegura.gob.bo) . Hoy (2 de Mayo), AGETIC ha dejado de actualizar esta visualización, y la ha reemplazado por [otra similar](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) que no permite extraer ningún dato. Por lo tanto, no es posible actualizar más la información en este repositorio. 
 
 
 - [Cambios en el último día](#cambios-en-el-último-día)
