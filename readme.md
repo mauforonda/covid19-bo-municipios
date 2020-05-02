@@ -29,6 +29,8 @@
 <tr class="modify"><td class="modify"> → </td><td>Omereque</td><td>5</td><td class="modify">1 → 4</td><td>0</td></tr>
 </tbody>
 </table>
+
+
 ## Cambios en la última semana
 
 
