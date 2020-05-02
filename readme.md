@@ -9,7 +9,7 @@
 
 - [Municipios más afectados](#municipios-más-afectados)
 
-
+- [Vulnerabilidad](#vulnerabilidad)
 
 
 ## Cambios en el último día
@@ -90,7 +90,7 @@
 
 ## Municipios más afectados
 
-Los 20 municipios con mayor proporción de su población infectada.
+_Los 20 municipios con mayor proporción de su población infectada._
 
 
 | Municipio               |   Confirmados |   Población |     % |
@@ -116,8 +116,36 @@ Los 20 municipios con mayor proporción de su población infectada.
 | Cobija                  |            12 |       78555 | 0.015 |
 | La Paz                  |           120 |      816044 | 0.015 |
 
+## Vulnerabilidad
+
+_Número de establecimientos de salud y porcentaje de la población mayor a 65 años, para los 20 municipios con más casos confirmados._
+
+
+| Municipio               |   Confirmados |   Decesos |   Establecimientos de Salud |   Población mayor a 65 años (%) |
+|-------------------------|---------------|-----------|-----------------------------|---------------------------------|
+| Santa Cruz de la Sierra |           395 |        20 |                         202 |                           4.438 |
+| Montero                 |           153 |         7 |                          24 |                           4.433 |
+| La Paz                  |           120 |         8 |                         137 |                           7.561 |
+| Oruro                   |            70 |         2 |                          53 |                           6.770 |
+| Trinidad                |            66 |         1 |                          45 |                           4.720 |
+| El Alto                 |            58 |         6 |                          97 |                           7.559 |
+| La Guardia              |            34 |         3 |                          11 |                           4.431 |
+| Cochabamba              |            31 |         2 |                         142 |                           6.596 |
+| Patacamaya              |            23 |         1 |                           4 |                           7.547 |
+| Potosi                  |            22 |         1 |                          39 |                           7.409 |
+| Huanuni                 |            20 |         0 |                           9 |                           6.667 |
+| Quillacollo             |            18 |         1 |                          13 |                           6.589 |
+| Warnes                  |            16 |         1 |                          25 |                           4.428 |
+| Santa Rosa              |            16 |         0 |                          11 |                           4.384 |
+| Santibañez              |            12 |         0 |                           5 |                           6.635 |
+| Cairoma                 |            12 |         0 |                          10 |                           7.534 |
+| Cobija                  |            12 |         1 |                          21 |                           2.850 |
+| Eucaliptus              |             9 |         4 |                           3 |                           6.738 |
+| Punata                  |             9 |         1 |                          10 |                           6.637 |
+| Vallegrande             |             8 |         0 |                           9 |                           4.445 |
+
 ---
 
-Los datos son actualizados cada día a medio día (GMT-4) para el día anterior.
+Los datos se actualizan a medio día (GMT-4) para casos del día anterior.
 
 
