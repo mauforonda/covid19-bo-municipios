@@ -1,7 +1,7 @@
 name: Update Repo
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 16-22 * * *'
 jobs:
   update:
     name: update
@@ -24,12 +24,14 @@ jobs:
           echo ::set-output name=date::$(python scripts/update.py)
         id: run_script
       - name: update readme
+        if: steps.run_script.outputs.date != 'Nop'
         run: |
           bash scripts/readme.sh
       - name: commit
         env:
           DATE: ${{ steps.run_script.outputs.date }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        if: steps.run_script.outputs.date != 'Nop'
         run: |
           git config --global user.email "covid19-bot@example.com"
           git config --global user.name "covid19-bot"
