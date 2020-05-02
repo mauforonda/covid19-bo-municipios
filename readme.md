@@ -29,13 +29,6 @@
 <tr class="modify"><td class="modify"> → </td><td>Omereque</td><td>5</td><td class="modify">1 → 4</td><td>0</td></tr>
 </tbody>
 </table>
-
-
-🆕 : nuevo municipio
-
-➡ : nuevos casos
-
-
 ## Cambios en la última semana
 
 
@@ -98,30 +91,31 @@
 Los 20 municipios con mayor proporción de su población infectada.
 
 
-| Municipio               |   Confirmados |   Población |         % |
-|-------------------------|---------------|-------------|-----------|
-| Eucaliptus              |             9 |        4972 | 0.181014  |
-| Santibañez              |            12 |        7295 | 0.164496  |
-| Montero                 |           153 |      135931 | 0.112557  |
-| Cairoma                 |            12 |       10870 | 0.110396  |
-| Patacamaya              |            23 |       23665 | 0.0971899 |
-| Omereque                |             5 |        5850 | 0.0854701 |
-| Huanuni                 |            20 |       27975 | 0.0714924 |
-| Santa Rosa              |            16 |       23834 | 0.067131  |
-| Santuario de Quillacas  |             3 |        4474 | 0.0670541 |
-| Trinidad                |            66 |      130657 | 0.0505139 |
-| Vallegrande             |             8 |       18472 | 0.0433088 |
-| Genreal Saavedra        |             5 |       14065 | 0.0355492 |
-| Robore                  |             5 |       16308 | 0.0306598 |
-| Punata                  |             9 |       33011 | 0.0272636 |
-| Oruro                   |            70 |      302643 | 0.0231296 |
-| Santa Cruz de la Sierra |           395 |     1722480 | 0.0229321 |
-| La Guardia              |            34 |      177735 | 0.0191296 |
-| Malla                   |             1 |        6195 | 0.0161421 |
-| Cobija                  |            12 |       78555 | 0.0152759 |
-| La Paz                  |           120 |      816044 | 0.0147051 |
+| Municipio               |   Confirmados |   Población |     % |
+|-------------------------|---------------|-------------|-------|
+| Eucaliptus              |             9 |        4972 | 0.181 |
+| Santibañez              |            12 |        7295 | 0.164 |
+| Montero                 |           153 |      135931 | 0.113 |
+| Cairoma                 |            12 |       10870 | 0.110 |
+| Patacamaya              |            23 |       23665 | 0.097 |
+| Omereque                |             5 |        5850 | 0.085 |
+| Huanuni                 |            20 |       27975 | 0.071 |
+| Santa Rosa              |            16 |       23834 | 0.067 |
+| Santuario de Quillacas  |             3 |        4474 | 0.067 |
+| Trinidad                |            66 |      130657 | 0.051 |
+| Vallegrande             |             8 |       18472 | 0.043 |
+| Genreal Saavedra        |             5 |       14065 | 0.036 |
+| Robore                  |             5 |       16308 | 0.031 |
+| Punata                  |             9 |       33011 | 0.027 |
+| Oruro                   |            70 |      302643 | 0.023 |
+| Santa Cruz de la Sierra |           395 |     1722480 | 0.023 |
+| La Guardia              |            34 |      177735 | 0.019 |
+| Malla                   |             1 |        6195 | 0.016 |
+| Cobija                  |            12 |       78555 | 0.015 |
+| La Paz                  |           120 |      816044 | 0.015 |
 
 ---
 
 Los datos son actualizados cada día a medio día (GMT-4) para el día anterior.
+
 
