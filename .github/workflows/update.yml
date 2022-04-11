@@ -1,7 +1,8 @@
 name: Update Repo
 on:
   schedule:
-    - cron: '0 16-22 * * *'
+    - cron: '0 0 * * 2,4,6'
+  workflow_dispatch:
 jobs:
   update:
     name: update
